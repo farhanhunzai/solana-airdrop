@@ -3,10 +3,8 @@ const {
   Connection,
   PublicKey,
   clusterApiUrl,
-  Keypair,
   LAMPORTS_PER_SOL,
 } = require("@solana/web3.js");
-// Create a new keypair
 
 // Exact the public and private key from the keypair
 const publicKey = process.argv[2];
